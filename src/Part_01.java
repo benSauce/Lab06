@@ -13,6 +13,7 @@ public class Part_01 {
 
         //check string length to begin counting
         if ((strInput.length()) > 0) {
+            String subStr = String.valueOf(strInput.charAt(0));;
             subStrCount = 1;
             maxCount = 1;
             //Parse word by letter
@@ -20,6 +21,7 @@ public class Part_01 {
                 //count
                 if (strInput.charAt(i) < strInput.charAt(i + 1)) {
                     subStrCount++;
+                    subStr += String.valueOf(strInput.charAt(i + 1));
                     if (subStrCount > maxCount) {
                         maxCount = subStrCount;
                     } //end if
@@ -27,11 +29,12 @@ public class Part_01 {
                 else {
                     //reset count
                     subStrCount = 1;
+                    subStr = "";
                 }
                 //Print result
             } // end for
-            System.out.println("The maximum consecutive increasingly ordered substring");
-            System.out.println("is: " + maxCount);
+            System.out.println("The maximum consecutive increasingly ordered substring:");
+            System.out.println(subStr + " | count: " + maxCount);
         } else {
             System.out.println("You must enter a String of at least length 1.");
         }
