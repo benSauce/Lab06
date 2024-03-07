@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b93948-89d8-4e37-b8c0-1b0f8c8d0e49" name="Changes" comment="Part 1 complete, updated to track string">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part_02.java" afterDir="false" />
-    </list>
+    <list default="true" id="71b93948-89d8-4e37-b8c0-1b0f8c8d0e49" name="Changes" comment="Part 2 complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Part_02">
+  <component name="RunManager" selected="Application.Part_01">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lab06" />
@@ -74,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Part_02" />
         <item itemvalue="Application.Part_01" />
+        <item itemvalue="Application.Part_02" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709755335095</updated>
       <workItem from="1709755336119" duration="4745000" />
-      <workItem from="1709782482134" duration="3862000" />
+      <workItem from="1709782482134" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -122,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709783792969</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Part 2 complete">
+      <option name="closed" value="true" />
+      <created>1709786368419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709786368419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +137,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Part 1 complete" />
     <MESSAGE value="Part 1 complete, updated to track string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 complete, updated to track string" />
+    <MESSAGE value="Part 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 2 complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
