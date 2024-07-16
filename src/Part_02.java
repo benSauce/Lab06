@@ -1,3 +1,9 @@
+/*
+ *  CS 2013
+ *  Lab 6 - Pt 2 Maximum Increasingly Ordered Subsequence
+ *  Benjamin Saucedo
+ *  Find the Maximum Increasingly Ordered Subsequence
+ */
 import java.util.*;
 
 public class Part_02 {

@@ -1,3 +1,9 @@
+/*
+ *  CS 2013
+ *  Lab 6 - Pt 3 Pattern Matching
+ *  Benjamin Saucedo
+ *  Find index of matching strings if match exists
+ */
 import java.util.*;
 
 public class Part_03 {

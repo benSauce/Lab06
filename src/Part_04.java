@@ -1,3 +1,9 @@
+/*
+ *  CS 2013
+ *  Lab 6 - Pt 4 Number Subsequence
+ *  Benjamin Saucedo
+ *  Find index of subsequence ending with 0 with the longest sequence of the same number
+ */
 import java.util.LinkedList;
 import java.util.*;
 

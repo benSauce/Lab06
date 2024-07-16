@@ -1,3 +1,9 @@
+/*
+ *  CS 2013
+ *  Lab 6 - Pt 5 Execution Time for GCD
+ *  Benjamin Saucedo
+ *  Find index of subsequence ending with 0 with the longest sequence of the same number
+ */
 public class Part_05 {
     /** Listing 23.3 Find GCD for integers m and n */
     //Assume m > n

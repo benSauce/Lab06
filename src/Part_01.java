@@ -1,3 +1,9 @@
+/*
+ *  CS 2013
+ *  Lab 6 - Pt 1 Maximum Consecutive Increasingly Ordered Substring
+ *  Benjamin Saucedo
+ *  Find the Maximum Consecutive Increasingly Ordered Substring
+ */
 import java.util.*;
 
 public class Part_01 {
@@ -20,11 +26,12 @@ public class Part_01 {
             maxCount = 1;
             //Parse word by letter
             for (int i = 0; i < (strInput.length() - 1); i++) {
-                //count
+                //if consecutive is increasing add ++ subStrCount and add char val to subStr
                 if (strInput.charAt(i) < strInput.charAt(i + 1)) {
                     subStrCount++;
                     subStr += String.valueOf(strInput.charAt(i + 1));
 
+                    //Check if this is a new maxCount
                     if (subStrCount > maxCount) {
                         maxCount = subStrCount;
                         maxConsecutive = subStr;
