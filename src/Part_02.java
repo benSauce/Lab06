@@ -7,7 +7,7 @@ public class Part_02 {
         System.out.print("Enter a String: ");
         //Store string
         String strInput = input.nextLine();
-        strInput = strInput.toLowerCase();
+        //strInput = strInput.toLowerCase();
         //Create variables for counting
         String maxSubSequence = "";
         String strLastAddedValue = "";
