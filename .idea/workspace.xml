@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b93948-89d8-4e37-b8c0-1b0f8c8d0e49" name="Changes" comment="Finished Pt 03">
+    <list default="true" id="71b93948-89d8-4e37-b8c0-1b0f8c8d0e49" name="Changes" comment="updated pt 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part_05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "Application.Part_02.executor": "Debug",
     "Application.Part_03.executor": "Debug",
     "Application.Part_04.executor": "Debug",
+    "Application.Part_05.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -64,14 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Part_04">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Lab06" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Part_05">
     <configuration name="Part_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part_01" />
       <module name="Lab06" />
@@ -100,13 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Part_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part_05" />
+      <module name="Lab06" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Part_05" />
         <item itemvalue="Application.Part_04" />
         <item itemvalue="Application.Part_03" />
         <item itemvalue="Application.Part_02" />
         <item itemvalue="Application.Part_01" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +131,7 @@
       <workItem from="1709782482134" duration="4175000" />
       <workItem from="1720730022121" duration="192000" />
       <workItem from="1720732865369" duration="1132000" />
-      <workItem from="1721089866929" duration="9934000" />
+      <workItem from="1721089866929" duration="13833000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721094042820</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated pt 4">
+      <option name="closed" value="true" />
+      <created>1721104106782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721104106782</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +193,8 @@
     <MESSAGE value="Part 1 complete, updated to track string" />
     <MESSAGE value="Part 2 complete" />
     <MESSAGE value="Finished Pt 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Pt 03" />
+    <MESSAGE value="updated pt 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pt 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
